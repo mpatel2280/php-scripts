@@ -5,7 +5,7 @@ class BinarySearch
     // Placeholder
     public function __construct() { }
 
-    public function bSearch1(array $list, int $search) {
+    public function bSearch1(array $list, int $search): int {
         $left = 0;
         $right = count($list) - 1;
         //Sort array list
